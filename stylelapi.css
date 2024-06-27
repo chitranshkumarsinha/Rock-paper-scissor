@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 4rem;
+}
+.choices{
+    margin-bottom: 2rem;
+    
+}
+.choices button{
+    font-size: 7rem;
+    /* border: none; */
+    border-radius: 270px;
+    margin: 0 15px;
+    background-color:black;
+    transition: background-color 0.5s ease;
+
+}
+.choices button:hover{
+    background-color: rgba(23, 22, 22, 0.678);
+}
+#playerdisplay,#computerdisplay{
+    font-size: 2.5rem;
+    margin: 5px 0;
+}
+#resultdisplay{
+    font-size: 4rem;
+    margin: 30px;
+}
+.truth{
+    display: flex;
+    gap: 5rem;
+}
+.score{
+    font-size: 2rem;
+}
+#plays{
+    color: rgb(36, 218, 36);
+}
+#comps{
+    color: rgb(215, 46, 46)
+}
+.end{
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 50%;
+    background-color: rgb(53, 51, 51);
+    color: white;
+}
+@media only screen and (max-width:700px){
+    body{
+        margin: 0px;
+        font-family: Arial,sans-serif;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .choices{
+        margin-bottom: 2rem;
+        
+    }
+    .choices button{
+        font-size: 3rem;
+        /* border: none; */
+        border-radius: 270px;
+        margin: 0 10px;
+        background-color:black;
+        transition: background-color 0.5s ease;
+    }
+    .choices button:hover{
+        background-color: rgba(23, 22, 22, 0.678);
+    }
+    #playerdisplay,#computerdisplay{
+        font-size: 1.3rem;
+        margin: 0;
+    }
+    #resultdisplay{
+        font-size: 1.5rem;
+        margin: 30px;
+    }
+    .truth{
+        display: flex;
+        gap: 1.5rem;
+    }
+    .score{
+        font-size: 1.2rem;
+    }
+    #plays{
+        color: rgb(36, 218, 36);
+    }
+    #comps{
+        color: rgb(215, 46, 46)
+    }
+    .end{
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-left: 30%;
+        background-color: rgb(53, 51, 51);
+        color: white;
+    }
+}
