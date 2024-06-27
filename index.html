@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylelapi.css">
+</head>
+<body>
+    <h2>Rock-Paper-Sciessor</h2>
+    <div class="choices">
+        <button class="rock" onclick="playgame('✊')">✊</button>
+        <button class="paper" onclick="playgame('✋')">✋</button>
+        <button class="scissor" onclick="playgame('✌️')">✌️</button>
+    </div>
+    <div class="truth">
+        <div id="playerdisplay">PLAYER:</div>
+        <div id="computerdisplay">COMPUTER:</div>
+    </div>
+
+    <div id="resultdisplay"></div>
+
+    <div class="score">Player score:
+        <span id="plays">0</span>
+    </div>
+    <div class="score">Computer score:
+        <span id="comps">0</span>
+    </div>
+    <button class="end" onclick="end()">End Game</button>
+    <script src="functtion.js"></script>
+</body>
+</html>
+
